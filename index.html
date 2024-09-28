@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fantasy Fables Forum</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Fantasy Fables Forum</h1>
+      <nav>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">☰</label>
+        <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#current-reads">Current Reads</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Description</p>
+      </section>
+
+      <section id="current-reads">
+        <h2>Current Reads</h2>
+        <div class="book">
+          <img src="book-cover.jpg" alt="Book Cover" />
+          <h2>Book Title</h2>
+          <p>Author: Author Name</p>
+          <p>
+            Synopsis: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <!-- Add more books as needed -->
+      </section>
+
+      <section id="reviews">
+        <h2>Reviews</h2>
+        <div class="review">
+          <h3>Book Title</h3>
+          <p>Reviewer: Member Name</p>
+          <p>Rating: ★★★★☆</p>
+          <p>
+            Review: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <!-- Add more reviews as needed -->
+      </section>
+
+      <section id="events">
+        <h2>Events</h2>
+        <div class="event">
+          <h3>Event Title</h3>
+          <p>Date: 2024-09-28</p>
+          <p>
+            Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit.
+          </p>
+        </div>
+        <!-- Add more events as needed -->
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="contact-form-process.php" method="post">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2024 Fantasy Fables Forum. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
