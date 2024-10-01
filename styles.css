@@ -60,7 +60,7 @@ h1 {
 }
 .openingImages img {
     width: 30%;
-    height: 30;
+    height: 30%;
 }
 
 main {
@@ -73,7 +73,7 @@ section {
     margin-bottom: 40px;
 }
 
-section h2 {
+section h2, h2 {
     text-align: center;
     color:#523211;
     border-bottom: 2px solid #ddd;
@@ -94,36 +94,55 @@ section p {
     margin-right: 10%;
 }
 
-.book-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+#current-reads {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
+#current-reads :hover {
+    transform: scale(1.05)  ;
+    transition-timing-function: ease-in-out;
+ 
+}
+
+
+
 .book {
-    background-color: white;
-    padding: 20px;
+    background-color: #eaeaea;
+    padding: 15px;
+    margin: 10px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    flex: 1 1 calc(33.333% - 20px);
-    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
 }
 
 .book img {
     max-width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 10px;
+    border-radius: 8px;
 }
 
 .book h3 {
-    color: #523211;
-    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.2em;
+    margin: 10px 0;
 }
 
 .book p {
-    margin-bottom: 10px;
+    color: #666;
+    font-size: 1em;
+    margin: 5px 0;
 }
+
+
 
 .event {
     background-color: white;
