@@ -143,22 +143,35 @@ section p {
 }
 
 
-
-.event {
-    background-color: white;
-    padding: 20px;
+/*book of the month*/
+#book-of-the-month {
+background-color: #eaeaea;
+padding: 15px;
+margin: 0 auto;
+border-radius: 8px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+width: 80%;
+text-align: center;
+display: flex;
+}
+.bookOfTheMonth {
+    background-color: #eaeaea;
+    padding: 15px;
+    margin: 10px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 380%;
+    text-align: center; 
 }
 
-.event h3 {
-    color: #333;
-    margin-bottom: 10px;
+#book-of-the-month img {
+    width:50%;
+    border-radius: 8px;
 }
 
-.event p {
-    margin-bottom: 10px;
+.bookTitle {
+    font-size: 1.7em;
+    color: #523211;
 }
 
 form {
@@ -194,5 +207,9 @@ form {
 
 .form-group input[type="submit"]:hover {
     background-color: #575757;
+}
+
+footer {
+    text-align: center;
 }
 
