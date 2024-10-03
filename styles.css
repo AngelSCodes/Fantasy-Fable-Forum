@@ -213,3 +213,70 @@ footer {
     text-align: center;
 }
 
+/*responsive design*/
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .openingImages img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .openingImages img {
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #current-reads {
+        flex-direction: column;
+        align-items: center;
+    }
+    .book {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
+
+@media  only screen and (max-width: 768px) {
+    #book-of-the-month {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bookOfTheMonth {
+        width: 90%;
+    }
+    #book-of-the-month img {
+        width: 80%;
+    }
+}
+
+@media only screen and  (max-width: 768px) {
+    form {
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
